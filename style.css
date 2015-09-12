@@ -1,73 +1,11 @@
 body {
-margin: 0;
-background-color: GhostWhite;
-color: #212121;
-font-family: 'Montserrat', sans-serif;
-background-image: url(https://farm6.staticflickr.com/5670/21077063162_61e61114e0_h.jpg);
-background-size: cover;
-}
-h1 {
-text-align: center;
-color: #F00;
-font-family: 'Montserrat', sans-serif;
-font-size: 36px;
-}
-nav a{
-  color: #000000;
-  text-decoration: none;
-}
-nav a:visited{
-  color: #000000;
-}
+	margin: 0;
+	background-color: GhostWhite;
+	color: #212121;
+	font-family: 'Open Sans', sans-serif;
+	background-image: url(https://farm1.staticflickr.com/616/20716082053_06499aa906_b.jpg);
+	background-size: cover;
+	}
+	
 
-section {
-  
-  background: -webkit-linear-gradient(90deg, #232526 10%, #414345 90%); /* Chrome 10+, Saf5.1+ */
-  background:    -moz-linear-gradient(90deg, #232526 10%, #414345 90%); /* FF3.6+ */
-  background:     -ms-linear-gradient(90deg, #232526 10%, #414345 90%); /* IE10 */
-  background:      -o-linear-gradient(90deg, #232526 10%, #414345 90%); /* Opera 11.10+ */
-  background:         linear-gradient(90deg, #232526 10%, #414345 90%); /* W3C */
-  height: 200px;
-  width: 100%;
-  text-align: center;
-}
 
-section a {
- color: #FFF;
- border: 1px solid #fff;
- padding: 20px;
- text-decoration: none;
- text-transform: uppercase;
- border-radius: 3px;
-}
-
-section {
-  position: relative;
-}
-
-section a {
-  width: 300px;
-  height: 25px;
-  padding: 20px;
-
-  position: absolute;
-  top: 50%;
-  left: 50%;
-
-  margin: -32px 0 0 -170px;
-}
-
-div {
-  height: 350px;
-}
-
-video {
-  width: 100%;
-}
-
-iframe {
-  width: 80%;
-  height: 500px;
-  margin: 0 auto;
-  display: block;
-}
